@@ -6,7 +6,7 @@ def oxford_comma(array)
   else
     lastElement = array.pop
     lastEdit = " and #{lastElement}"
-    finalEdit = array.join(",") + lastEdit
+    finalEdit = array.join(", ") + lastEdit
     finalEdit
   end
 end
